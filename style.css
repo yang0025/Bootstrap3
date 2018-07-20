@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+
+
+
+
+
+.navbar .navbar-right .dengLu{
+   
+    position: absolute;
+    top: 10px;
+}
+
+
+
+.navbar .navbar-nav li span{
+    background-color:red;
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    right: 0;
+}
+
+.navbar-default{
+    
+    background: #222222;
+    height: 30px;
+    border:none; 
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+
+
+.navbar .navbar-collapse ul li> a{
+    color: #9d9d9d;
+   
+}
+
+.navbar .navbar-collapse ul li> a:hover{
+    color:#fff;
+}
+.navbar .navbar-header a{
+    color: #9d9d9d;
+}
+
+.navbar .navbar-header a:hover{
+    color:#fff;
+}
+
+header{
+    margin-top: 30px;
+}
+
+
+header .purpleBox{
+    background: url(image/bs-docs-masthead-pattern.png) repeat center center,linear-gradient(45deg,#020031 0,#6d3353 100%);
+
+    padding: 90px 0 110px 0;
+
+}
+
+header .purpleBox h1{
+
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+header .purpleBox h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+
+
+header .purpleBox p{
+    /* text-align: center; */
+    padding-top: 20px;
+}
+
+header .purpleBox .btn-primary{
+    width: 290px;
+    height: 54px;
+   box-shadow: inset 0 -4px 0 #2a6496; 
+  transition: 0.5s;
+    
+
+}
+
+header .purpleBox a{
+    display: block;
+    text-align: center;
+    color: #9d9d9d;
+    padding-top: 10px;  
+  
+}
+
+
+header .purpleBox .content a:hover{
+    color: white;
+   transition: 1s;
+
+}
+
+header .purpleBottom{
+   
+    background-color: #f5f5f5;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+header .purpleBottom p{
+   
+  margin-bottom: 0;
+    
+}
+
+header .purpleBottom p:first-child{
+    border-right: 1px solid #ddd;
+    text-align: right;
+}
+header .purpleBottom .lastP a:hover{
+ color: rgb(217, 83, 79)
+
+}
+header .purpleBottom p a{
+    color: #555;
+}
+
+header .purpleBottom p .fa{
+    color:#555;
+    margin-right: 5px;
+}
+
+
+main{
+ 
+    padding-left: 0;
+}
+
+main .text{
+   width: 60%;
+   text-align: center;
+   margin: 60px auto 50px;
+   border-bottom: 1px solid #ddd;
+
+}
+
+main .text h2{
+    font-size: 42px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+main .text p{
+    padding-bottom: 20px;
+   
+    
+ 
+}
+main{
+    box-sizing: border-box;
+}
+
+main .row .content{
+    text-align: center;
+    padding: 10px;
+    
+}
+
+main .row .col-sm-6{
+    
+    margin-top: 30px;
+}
+
+main .row .col-sm-6>div{
+    border: 1px solid #ddd;
+    padding: 5px;
+    max-width: 300px;
+    
+}
+
+main .row img{
+    width: 100%;
+}
+
+footer{
+    margin-top: 50px;
+    border-top: 1px solid #ddd;
+    padding: 30px 0;
+    
+}
+
+footer .row p{
+    margin-top: 10px;
+    color: #555;
+}
+
+footer .container .row .col-md-3 h4{
+    font-size: 16px;
+    color:#563d7c;
+}
+footer .container .row .col-md-3 a{
+    color: #555;
+}
+
+
+footer .footer-top{
+    border-bottom: 1px solid #ddd;
+}
+
+footer .footer-bottom li {
+    color: #555;
+}
+footer .footer-bottom .string::before{
+    content: "|";
+    color: #ddd;
+    margin-right: 15px;
+}
+
+footer .footer-bottom li a{
+         color: #555;
+}
+footer .footer-bottom ul{
+    margin-top: 15px;
+}
+
+nav .navbar-collapse .change{
+    margin-bottom: 0;
+    padding: 0;
+} 
+
+@media (min-width:768px) and (max-width:1200px){
+    footer .container .row .col-md-offset-1{
+      margin-left: 0;
+ }
+
+}
+
+@media (min-width:768px) and (max-width:992px){
+    header .purpleBox h2{
+          font-size: 24px;
+    }
+    header .purpleBox h1{
+        font-size: 90px;
+    }
+
+    footer .container .row .col-md-offset-1 .col-md-3{
+      
+       
+        width: 25%;
+        float: left;
+   }
+
+   header .purpleBottom{
+     margin: 0 auto;
+}
+}
+
+@media(max-width:768px){
+    header .purpleBox h2{
+        font-size: 18px;
+    }
+    header .purpleBox h1{
+        font-size: 60px;
+    }
+    main .text h2{
+        font-size: 30px;
+    }
+    main .row .col-sm-6>div{
+        max-width: 310px;
+        margin: 0 auto;
+        
+    }
+
+    header .purpleBottom p:first-child{
+        text-align: left;
+    }
+
+    .navbar-default{
+        height: inherit;
+    }
+
+   #login{
+      position: absolute;
+      left: 15px;
+}
+
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
